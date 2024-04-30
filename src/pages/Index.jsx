@@ -3,12 +3,12 @@ import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 
 const Index = () => {
   return (
-    <VStack spacing={10} align="stretch">
+    <VStack spacing={20} align="stretch">
       <Box bg="brand.800" color="white" p={5}>
         <Text fontSize="4xl" fontWeight="bold">John Doe</Text>
         <Text fontSize="xl">Developer | Designer | Creator</Text>
       </Box>
-      <Flex direction={{ base: 'column', md: 'row' }} justify="space-around" p={5}>
+      <Flex direction="column" justify="space-around" p={5}>
         <VStack spacing={5}>
           <Text fontSize="3xl" fontWeight="bold">About</Text>
           <Text fontSize="md">I am a passionate software developer with a knack for building visually appealing and functional applications. My interests include web development, UI/UX design, and mobile app development.</Text>
