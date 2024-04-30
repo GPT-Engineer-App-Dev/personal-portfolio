@@ -9,16 +9,16 @@ const Index = () => {
         <Text fontSize="xl">Developer | Designer | Creator</Text>
       </Box>
       <Flex direction="column" justify="space-around" p={5}>
-        <VStack spacing={5}>
+        <VStack spacing={10}>
           <Text fontSize="3xl" fontWeight="bold">About</Text>
           <Text fontSize="md">I am a passionate software developer with a knack for building visually appealing and functional applications. My interests include web development, UI/UX design, and mobile app development.</Text>
         </VStack>
-        <VStack spacing={5}>
+        <VStack spacing={10}>
           <Text fontSize="3xl" fontWeight="bold">Portfolio</Text>
           <Text fontSize="md">Here are some of my projects. This section will be updated regularly with new work.</Text>
           <Button colorScheme="blue">View More</Button>
         </VStack>
-        <VStack spacing={5}>
+        <VStack spacing={10}>
           <Text fontSize="3xl" fontWeight="bold">Contact</Text>
           <Link href="mailto:john.doe@example.com" isExternal>
             <Button leftIcon={<FaEnvelope />} colorScheme="teal">Email Me</Button>
